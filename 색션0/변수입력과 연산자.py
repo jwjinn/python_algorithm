@@ -39,3 +39,8 @@ print("====================")
 after_split = a.split()
 print(after_split)
 print(type(after_split))
+
+print(map(int, after_split))
+a, b = map(int, after_split)
+
+print(a, b)
